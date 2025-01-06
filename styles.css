@@ -526,6 +526,10 @@ animation: expand 2s infinite alternate ease-in-out;
     padding: 0;
 }
 
+.footer-links {
+    margin-left: 15px;
+}
+
 .footer-links a,
 .footer-socials a {
     color: #ddd;
@@ -546,6 +550,10 @@ animation: expand 2s infinite alternate ease-in-out;
 .footer-socials a {
     font-size: 1.5rem;
     margin-bottom: 10px;
+}
+
+.footer-newsletter {
+    margin-left: 15px;
 }
 
 .footer-newsletter form {
