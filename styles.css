@@ -264,6 +264,8 @@
         text-align: center;
         font-size: 2.5rem;
         margin-bottom: 20px;
+        text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+        text-transform: uppercase;
        }
 
        .menu p {
@@ -321,6 +323,7 @@
         font-size: 2rem;
         margin-bottom: 20px;
         text-transform: uppercase;
+        text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
        }
 
        .events-container p {
@@ -349,11 +352,21 @@
        }
 
        .line {
-        border: 2px solid white;
-        width: 500px;
-        margin-left: 100px;
+        width: 80%;
+height: 5px;
+background-color: #fff;
+animation: expand 2s infinite alternate ease-in-out;
        }
        
+       @keyframes expand {
+  0% {
+    width: 20%;
+  }
+  100% {
+    width: 80%;
+  }
+}
+
         /* Responsive styles */
         @media (max-width: 768px) {
             .menu-toggle {
@@ -412,3 +425,5 @@
                 grid-template-columns: 1fr;
             }
         }
+        
+    
